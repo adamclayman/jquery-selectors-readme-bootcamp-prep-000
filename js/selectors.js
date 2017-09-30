@@ -21,7 +21,7 @@ function divSelector() {
 }
 
 function firstListItem() {
-  const firstChildOfListItem = $("ul[id='pic-list']:first-child").innerHTML;
+  const firstChildOfListItem = $("ul[id='pic-list']:first-child");
   return firstChildOfListItem;
 }
 
