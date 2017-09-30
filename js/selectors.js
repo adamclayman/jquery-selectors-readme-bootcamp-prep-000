@@ -16,7 +16,7 @@ function ninjaBabySelector() {
 }
 
 function divSelector() {
-  const divsWithClassPic = $("div[class='pic']");
+  const divsWithClassPic = $("div[class='pics']");
   return divsWithClassPic;
 }
 
